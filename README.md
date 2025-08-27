@@ -1,7 +1,4 @@
 # DUF - Discord Username Fetcher
-
-## Overview
-
 Simple C++ tool for fetching a Discord username via memory offsets.
 
 ## Requirements
