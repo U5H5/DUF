@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="workspace">
+      <UniqueIdentifier>{4e244a76-03f3-40c4-9ab7-3a235b94275f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\memory">
+      <UniqueIdentifier>{5dcd6114-f3c7-42e3-a518-650baeaa8d8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory.h">
+      <Filter>workspace\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>workspace</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
